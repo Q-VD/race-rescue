@@ -1,8 +1,42 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #e9ecef
-  color: #ffffff;
   margin: 0;
-  padding: 0;
-  height: 100vh;
+  padding: 20px;
+  color: #ffffff;
+}
+
+/*==== Headers ====*/
+header {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/*==== navigatie ====*/
+site.header {
+  displacy: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: # 003366;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 100px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.site-title {
+  margin: 0 0 10px 0;
+  font-size: 1.8rem;
+  color: white;
 }
