@@ -20,8 +20,8 @@ header h1 {
 }
 
 /*==== navigatie ====*/
-site.header {
-  displacy: flex;
+site-header {
+  display: flex;
   align-items: flex-start;
   gap: 20px;
   background-color: # 003366;
